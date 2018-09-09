@@ -1,0 +1,62 @@
+/* Colors */
+/* Light Blue: #04C2C9 */
+/* White: #fff */
+/* Pink/Purple: #E31B6D*/
+/* Navy: #011A27 */
+/* Background: #252934 */
+
+body {
+  background-color: #252934;
+  text-align: center;
+}
+
+.bodyText {
+	color: #fff;
+	font-family: Raleway; 
+	font-size: 24px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px;
+	margin-top: 60px;
+}
+
+.title {
+   font-size: 36px;
+   color: #E31B6D;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b242f;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    border-bottom:3px solid #04c2c9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   text-decoration: none;
+   padding: 8px 16px;
+}
+
+li a:hover {
+    color: #E31B6D;
+}
+
+.active {
+    color: #E31B6D;
+}
+
+
